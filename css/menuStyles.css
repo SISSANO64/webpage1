@@ -1,0 +1,123 @@
+hr{
+    color: #e6e6e8;
+}
+
+.menu{
+    background-color: #15151e;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu__container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-items: center;
+    color: #e6e6e8;
+    font-size: 60px;
+    height: 180px;
+    margin-top: 75px;
+    background-image: linear-gradient(to right, rgba(66, 66, 66, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%), url(../img/coffeShop2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: principalFont;
+
+}
+
+.menu__section{
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #e6e6e8;
+}
+
+.menu__header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: principalFont;
+    font-size: 20px;
+
+}
+
+.menu__header2 h2{
+    width: 65%;
+    color: #bcaa94;
+} 
+
+.menu__header2 p{
+    width: 15%;
+    text-align: center;
+    color: #7c6f69;
+} 
+
+.menu__header1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu__header1 h2{
+    font-family: principalFont;
+    font-size: 35px;
+    color: #bcaa94;
+} 
+
+.menu__item2{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item2 p:first-child{
+    width: 65%;
+    text-align: left;
+}
+
+.menu__item2 p{
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.menu__item1{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item1 p:first-child{
+    width: 80%;
+    text-align: left;
+}
+
+.menu__item1 p{
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .menu__section{
+        width: 90%;
+        min-width: 270px
+    }
+}
